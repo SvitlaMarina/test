@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: Lato;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 5px;
+  display: block;
+  text-align: center;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  color: #686666;
+  font-size: 9px;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+button {
+  background: none;
+  border: 1px solid #fff;
+  padding: 5px 20px 5px 20px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 8px;
+  opacity: 70%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url(..//img/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header img {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  color: #fff;
+}
+
+.header p {
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.header span {
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.header button {
+  background: none;
+  border: 1px solid #fff;
+  padding: 5px 20px 5px 20px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 8px;
+  opacity: 70%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.header a {
+  display: block;
+  color: #fff;
+  padding: 30px;
+  opacity: 50%;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu {
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #fff;
+  z-index: 5;
+  top: 0;
+}
+
+.menu a {
+  display: inline-block;
+  color: #686666;
+  font-size: 9px;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.about {
+  padding: 50px;
+  margin: 0 auto 0 auto;
+  max-width: 620px;
+}
+
+.about span {
+  color: #868585;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+.about .web-ios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .web-ios .web-ios__colum {
+  -webkit-box-flex: 33,3333%;
+      -ms-flex: 33,3333%;
+          flex: 33,3333%;
+  padding: 0 15px;
+}
+
+.about .web-ios .web-ios__colum .item-content__icon {
+  text-align: center;
+}
+
+.about .web-ios .web-ios__colum .item-content__icon img {
+  height: 70px;
+}
+
+.about .web-ios .web-ios__colum .item-content__title {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.about .web-ios .web-ios__colum .item-content__text {
+  font-weight: 300;
+  color: #868585;
+  font-size: 10px;
+  text-align: center;
+}
+
+.portfolio {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 60px 0;
+}
+
+.portfolio__title span {
+  color: #868585;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio__menu {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio__colum {
+  max-width: 650px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolio__colum .porfolio-block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 300px;
+          flex: 0 1 300px;
+  margin: 5px 10px;
+  width: 300px;
+  height: 200px;
+  background-color: #dadada;
+}
+
+.portfolio button {
+  margin: 20px auto;
+  color: #868585;
+  border-color: #868585;
+}
+
+.partners {
+  background: url(..//img/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partners__title {
+  text-align: center;
+  color: #fff;
+  width: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.partners__icons {
+  max-width: 700px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.contact__title {
+  padding: 30px 0;
+}
+
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact__form-fild {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+.contact__form-fild .name {
+  margin-bottom: 10px;
+}
+
+.contact__form-fild .name input {
+  border: 1px solid #dadada;
+}
+
+.contact__form-fild .mail {
+  margin-bottom: 10px;
+}
+
+.contact__form-fild .mail input {
+  border: 1px solid #dadada;
+}
+
+.contact__form-fild .message textarea {
+  border: 1px solid #dadada;
+}
+
+.contact__form-fild .send {
+  text-align: right;
+}
+
+.contact__form-fild .send button {
+  display: inline;
+  border: none;
+  color: #000;
+  font-size: 10px;
+  text-align: right;
+}
+
+.contact__form-description {
+  padding-top: 20px;
+  padding-left: 20px;
+  max-width: 300px;
+}
+
+.contact__form-description .text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.contact__form-description .contact-name {
+  padding: 20px 0 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact__form-description .contact-mail {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.contact__form-description .contact-mail a {
+  font-size: 12px;
+}
+
+.futer {
+  padding: 30px 0;
+  background-color: #3c3c3c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.futer__logo img {
+  width: 100px;
+}
+
+.futer__copirait {
+  padding-top: 10px;
+  font-size: 10px;
+  color: #868585;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */

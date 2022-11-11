@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+//$ wd: 650px;
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: Lato;
+    
+}
+h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 5px;
+    display: block;
+    text-align: center;
+    
+}
+span{
+    display: block;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    color: #686666;
+    font-size: 9px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    }
+button{
+        background: none;
+        border: 1px solid #fff;
+        padding: 5px 20px 5px 20px;
+        color: #fff;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 8px;
+        opacity: 70%;
+        display:block; 
+        margin:0 auto 0 auto; 
+      }; 
+.header{
+    padding-top:40px ;
+    padding-bottom: 40px;
+    background: url(..//img/bg-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    img{
+     width: 150px;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 30px;
+    }
+    h2{
+        color: #fff;
+    }
+    p{
+    letter-spacing: 2px;    
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+    font-size: 14px;
+    }
+    span{
+        
+        color: #fff;
+        margin-bottom: 70px;
+    }
+    button{
+        background: none;
+        border: 1px solid #fff;
+        padding: 5px 20px 5px 20px;
+        color: #fff;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 8px;
+        opacity: 70%;
+        display:block; 
+        margin:0 auto 0 auto;
+       }
+    
+       a{
+           display: block;
+           color: #fff;
+           padding: 30px;
+           opacity: 50%;
+           font-size: 10px;
+           text-align: center;
+           text-decoration: none;
+       }
+    
+}
+.menu{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    position: sticky;
+    background-color: #fff;
+    z-index: 5;
+    top: 0;
+    a{
+    display: inline-block;
+    color: #686666;
+    font-size: 9px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    }
+}
+.about{
+    padding: 50px;
+    margin: 0 auto 0 auto ;
+    max-width: 620px;
+    span{
+    color: #868585;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    }
+    .web-ios{
+        display: flex;
+        .web-ios__colum{
+            flex: 33,3333%;
+            padding: 0 15px;
+            .item-content{
+               
+                &__icon{
+                    text-align: center;
+                    img{
+                    height: 70px;}
+
+                }
+                &__title{
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    letter-spacing: 3px;
+
+                }
+                &__text{
+                    font-weight: 300;
+                    color:#868585;
+                    font-size: 10px;
+                    text-align: center;
+
+                }
+            }
+            
+        }
+            
+       
+    }
+}
+.portfolio{
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 60px 0;
+    
+    &__title{
+        span{
+            color: #868585;
+            font-weight: 300;
+            font-size: 12px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            }
+    }
+    &__menu{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    &__colum{
+        max-width:650px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+        .porfolio-block{
+            flex: 0 1 300px;
+            margin: 5px 10px;
+            width: 300px;
+            height: 200px;
+            background-color: #dadada;
+
+        }
+    }
+  button{
+   margin: 20px auto;
+    color: #868585;
+    border-color: #868585;
+    
+  };         
+}
+.partners{
+    background: url(..//img/bg-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title{
+        text-align: center;
+        color: #fff;
+        width: 300;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 20px;
+    }
+    &__icons{
+        max-width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__icons-column{}
+}
+       
+.contact{
+    max-width: 700px;
+    margin: 10px auto;
+    &__title{
+        padding: 30px 0;
+    }
+    &__form{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__form-fild{
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 10px;
+        .name{
+            margin-bottom: 10px;
+            input{border: 1px solid #dadada;}
+            
+        }
+        .mail{
+            margin-bottom: 10px;
+            input{border: 1px solid #dadada;}
+        }
+        .message{
+            textarea{border: 1px solid #dadada;}
+        }
+        .send{text-align: right;
+        button{
+            display: inline;
+            border: none;
+            color: #000;
+            font-size: 10px;
+            text-align: right;
+        }
+        }
+    }
+    &__form-description{
+        padding-top: 20px;
+        padding-left: 20px;
+        max-width: 300px;
+        .text{
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+        .contact-name{
+           padding:20px 0 0 0 ;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .social-link{}
+        .contact-mail{
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+}
+.futer{
+    padding: 30px 0;
+    background-color: #3c3c3c;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    &__logo{ 
+        img{
+            width: 100px;
+        }
+    }
+    &__menu{}
+    &__copirait{
+        padding-top: 10px;
+        font-size: 10px;
+        color: #868585;
+        letter-spacing: 1px;
+}
+        
+}
